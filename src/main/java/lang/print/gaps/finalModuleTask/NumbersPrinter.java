@@ -2,10 +2,7 @@ package lang.print.gaps.finalModuleTask;
 
 public class NumbersPrinter {
     public void printIsPositive(int number) {
-        if( number > 0 ){
-            System.out.println(true);
-        }else{
-            System.out.println(false);
-        }
+        boolean isPositive = (number & Integer.MIN_VALUE) == 0;
+        System.out.println(isPositive);
     }
 }
