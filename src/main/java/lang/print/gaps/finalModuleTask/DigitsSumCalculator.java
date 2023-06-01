@@ -10,6 +10,6 @@ public class DigitsSumCalculator {
         sum += (number / 100) % 10;// Extract the second digit
         sum += number / 1000;      // Extract the first digit
 
-        System.out.println("Sum of digits: " + sum);
+        System.out.println(sum);
     }
 }
